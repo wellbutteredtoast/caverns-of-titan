@@ -1,0 +1,22 @@
+[package]
+name = "caverns-of-titan"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+macroquad = "0.4"
+
+[profile.dev]
+opt-level = 0
+debug = true
+overflow-checks = true
+debug-assertions = true
+incremental = true
+panic = "unwind"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+debug = false
