@@ -1,5 +1,9 @@
 # Caverns of Titan
 
+![Static Badge](https://img.shields.io/badge/built_with-rust-orange?logo=rust)
+![Static Badge](https://img.shields.io/badge/built_for-MVM28-red?link=https%3A%2F%2Fitch.io%2Fjam%2Fmetroidvania-month-28)
+![Static Badge](https://img.shields.io/badge/license-MIT-blue)
+
 <!-- 
 POSSIBLE THEMES
 Evolution

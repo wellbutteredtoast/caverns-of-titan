@@ -1,8 +1,5 @@
 # Caverns of Titan - DD
 <!-- This makes heavy use of the GitHub Markdown secret sauce -->
-![Static Badge](https://img.shields.io/badge/built_with-rust-orange?logo=rust)
-![Static Badge](https://img.shields.io/badge/built_for-MVM28-red?link=https%3A%2F%2Fitch.io%2Fjam%2Fmetroidvania-month-28)
-![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Preamble
 
@@ -26,8 +23,9 @@ This is a novel mechanic, when interacting with some form of plant-life or anima
 
 ## Upgrades
 
-> [!NOTE]
-> No design notes as of **05/12/2025**
+Upgrades are important, very important. Upgrades can only be found via exploration and through them being dropped by some lifeforms. Upgrades are vital to safely taking down some of the stronger lifeforms you may encounter.
+
+You can only equip a maximum of **three (3)** upgrades on you at once, and you may only carry up to **eighteen (18)** items maximum. You can carry items that are *not* upgrades, such as excess scientific samples, random collectables, and other stuff I'll probably sporadically add throughout development for *the funny.*
 
 ## Combat
 
