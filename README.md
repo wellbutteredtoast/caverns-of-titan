@@ -1,5 +1,19 @@
 # Caverns of Titan
 
+<!-- 
+POSSIBLE THEMES
+Evolution
+One Item
+Alignment
+Psychedelic
+Non-Euclidean
+Paradox
+Hidden in Plain Sight
+Decay
+Twisted Nature
+Lost Past
+-->
+
 > [!NOTE]
 > Caverns of Titan is an unfinished game, some content may be locked or not available.
 
@@ -7,7 +21,7 @@ Caverns of Titan is a dungeon-crawling, low detail, difficult metroidvania-like 
 
 This project was built in Rust for the [Metroidvania Month 28](https://itch.io/jam/metroidvania-month-28) game jam!
 
-## About the assets
+## About the Rules
 
 As per the rules of **MVM 28:**
  - All assets are made by me for this jam

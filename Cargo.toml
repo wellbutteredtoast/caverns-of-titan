@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 macroquad = "0.4"
 
+# no optimizing, all debug symbols, quick compiling
 [profile.dev]
 opt-level = 0
 debug = true
@@ -14,6 +15,8 @@ debug-assertions = true
 incremental = true
 panic = "unwind"
 
+# optimized for size, aggressive linker optimizing, overall smaller but faster binary
+# no unwinding stack on error - just abort it
 [profile.release]
 opt-level = "z"
 lto = true
