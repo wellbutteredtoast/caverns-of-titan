@@ -4,3 +4,11 @@ Cargo.lock
 /.vs
 .tmp
 .temp
+.exe
+.dylib
+.so
+.a
+.out
+.DS_STORE
+.dll
+.db

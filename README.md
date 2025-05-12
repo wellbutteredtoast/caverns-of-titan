@@ -32,7 +32,7 @@ All the art and effects were created in [Aesprite](https://github.com/aseprite/a
 
 ## Developer Log
 
-I will be keeping a devlog of this project, starting from May 15th up until the day of submission, June 15th. The devlog may extend further if the project is successful. Each log will *not* be extensively detailed. Mostly a summary of what I did that day, what works, what broke, what art I worked on, the usual stuff.
+I will be keeping a devlog of this project, starting from May 15th up until the day of submission, June 15th. The devlog may extend further if the project is successful. Each log will *not* be extensively detailed. Mostly a summary of what I did that day, what works, what broke, what art I worked on, the usual stuff. Changes to things like this README and the DesignDoc may **not** be documented during the game jam.
 
 ## Releases
 
