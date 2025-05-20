@@ -1,55 +1,34 @@
 # Caverns of Titan
 
 ![Static Badge](https://img.shields.io/badge/built_with-rust-orange?logo=rust)
-![Static Badge](https://img.shields.io/badge/built_for-MVM28-red?link=https%3A%2F%2Fitch.io%2Fjam%2Fmetroidvania-month-28)
 ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
-<!-- 
-POSSIBLE THEMES
-Evolution
-One Item
-Alignment
-Psychedelic
-Non-Euclidean
-Paradox
-Hidden in Plain Sight
-Decay
-Twisted Nature
-Lost Past
--->
-
 > [!NOTE]
-> Caverns of Titan is an unfinished game, some content may be locked or not available.
+> Caverns of Titan is an unfinished game, some content may be locked, unusable, or broken.
 
-Caverns of Titan is a dungeon-crawling, low detail, difficult metroidvania-like game all about exploring a huge system of caverns that meander all through the underground of Saturn's mysterious Titan. Underneath the oceans, the dense ice, everything... you dwell on - or under - the surface of it all. Why? I'm not 100% sure as of yet. Your goal is simple, you explore the caverns, taking out whatever hostile life you come across, collect samples of whatever you can recover, and see how deep down you can go. There are a handful of enemies, lifeforms, and areas to explore. Nothing too major since this is a game jam submission, but if this project is well recieved I may do more work on it and give it a proper release onto itch.io.
+Caverns of Titan is a dungeon-crawling, difficult metroidvania-like game all about exploring a huge system of caverns that meander all through the underground of Saturn's mysterious Titan. Underneath the oceans, the dense ice, everything... you dwell on - or under - the surface of it all. Why? I'm not 100% sure as of yet. Your goal is simple, you explore the caverns, taking out whatever hostile life you come across, collect samples of whatever you can recover, and see how deep down you can go. There are a handful of enemies, lifeforms, and areas to explore. Nothing too major since this is a game jam submission, but if this project is well recieved I may do more work on it and give it a proper release onto itch.io.
 
-This project was built in Rust for the [Metroidvania Month 28](https://itch.io/jam/metroidvania-month-28) game jam!
+This project was **originally started** the [Metroidvania Month 28](https://itch.io/jam/metroidvania-month-28) game jam! As of May 20, 2025, this project has been pulled out of the game jam and is now more of a personal project.
 
-## About the Rules
+## Tools of the Trade
 
-As per the rules of **MVM 28:**
- - All assets are made by me for this jam
- - All game content is at or below a PG-13 rating
- - The game is (and will remain) free
+> **[Aesprite](https://github.com/aseprite/aseprite)** is my art tool of choice, it's easy and works amazing.
 
-All the art and effects were created in [Aesprite](https://github.com/aseprite/aseprite), all the music was made in [LMMS](https://lmms.io/), and all the SFX were made with [rFXGen](https://raylibtech.itch.io/rfxgen)
+> **[LMMS](https://lmms.io/)** is my goto music production tool, I don't use FL (b/c I am broke), and free is always good.
 
-## Developer Log
-
-I will be keeping a devlog of this project, starting from May 15th up until the day of submission, June 15th. The devlog may extend further if the project is successful. Each log will *not* be extensively detailed. Mostly a summary of what I did that day, what works, what broke, what art I worked on, the usual stuff. Changes to things like this README and the DesignDoc may **not** be documented during the game jam.
+> **[rFXGen](https://raylibtech.itch.io/rfxgen)** is how I make SFX, it's very cool.
 
 ## Releases
 
 > [!WARNING]
 > Caverns of Titan may not properly work on platforms not listed!
 
-I intend to release this game on **four** major platforms;
- - Web
+I intend to release this game on **three** major platforms;
  - Windows (x64 / arm64)
  - MacOS (arm64)
  - Linux (x64 / arm64)
 
-For all builds that are not listed here, running `cargo build --release` or `cargo run` should allow you to compile and play on your native system. As long as you have [Rust](https://www.rust-lang.org/) installed properly.
+For all builds that are not listed here, running `cargo build --release` or `cargo run` should allow you to compile and play on your native system. As long as you have [Rust](https://www.rust-lang.org/) installed properly. I will not be providing instructions for systems like web builds or niche architectures such as **Itanium** and **RISC-V.**
 
 ## Licensing
 

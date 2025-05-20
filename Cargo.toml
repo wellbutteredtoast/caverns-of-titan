@@ -5,6 +5,9 @@ edition = "2024"
 
 [dependencies]
 macroquad = "0.4"
+toml = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+mlua = { version = "0.10.3", features = ["lua54", "vendored"] }
 
 # no optimizing, all debug symbols, quick compiling
 [profile.dev]
@@ -15,10 +18,9 @@ debug-assertions = true
 incremental = true
 panic = "unwind"
 
-# optimized for size, aggressive linker optimizing, overall smaller but faster binary
-# no unwinding stack on error - just abort it
+# edited opt-level for speed rather than size since we're no longer web-building
 [profile.release]
-opt-level = "z"
+opt-level = 2
 lto = true
 codegen-units = 1
 panic = "abort"
